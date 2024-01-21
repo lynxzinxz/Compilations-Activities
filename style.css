@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Berkshire+Swash&family=Ultra&display=swap');   
+
+
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #232946;
+    display: flex;
+    position: sticky;
+}
+
+/* .logo img{
+    height: 11%;
+} */
+
+header {
+    color: white;
+    width: 40%;
+}
+
+header h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 35x black;
+    transform: translateY(25px);
+    margin-left: 5%;
+}
+
+ul {
+    height: 10vh;
+    width: 50%;
+    list-style-type: none;
+    margin: 0 0 0 5%;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+   font-size: 22px; 
+   font-family: 'Dela Gothic One', sans-serif;
+   float: right;
+   transform: translateY(20px);
+   margin: 0 2% 0 5%;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #eebbc3;
+    color: #232946;
+}
+
+.home-content {
+    height: 90vh;
+    backdrop-filter: blur(5%);
+    background: rgb(55,69,139);
+    background: linear-gradient(0deg, rgba(55,69,139,1) 0%, rgba(115,136,223,1) 49%, rgba(184,193,236,1) 89%);
+}
+  
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {  
+    margin-top: 14%;
+    width: 50%;
+    border-bottom: #232946 double 30px;
+}
+
+.title h1 {
+    width: 100%;
+    font-family: 'Berkshire Swash', serif;
+    font-size: 100px;
+    color: white;
+    text-shadow: #1b1f36 5px 5px 10px;
+    padding: 4%;
+}
+
+.title h5 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-shadow: #1b1f36 5px 5px 10px;
+    margin: 0 0 5% 30%;
+    letter-spacing: 5px;
+}

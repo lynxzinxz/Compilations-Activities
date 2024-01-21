@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Berkshire+Swash&family=Ultra&display=swap');   
+
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navi {
+    background-color: #232946;
+    display: flex;
+    position: sticky;
+    z-index: 100;
+}
+.nav {
+    background-color: #022C5E;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+} 
+
+.nav ul {
+    height: 10vh;
+    width: 50%;
+    margin: 0 2% 0 15%;
+    transform: translateY(20px);
+}
+
+.nav li {
+  font-size: 22px; 
+  font-family: 'Dela Gothic One', sans-serif;
+  float: right;
+  margin-left: 5%;
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  padding: 5px 5px;
+}
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+.nav a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li:hover a:link, li:hover a:visited {
+    background-color: #eebbc3;
+    color: #232946;
+ }
+
+
+ .navi header {
+    color: white;
+    width: 40%;
+}
+
+.navi header h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 35x black;
+    transform: translateY(25px);
+    margin-left: 5%;
+}
+
+.navi ul {
+    height: 10vh;
+    width: 50%;
+    list-style-type: none;
+    margin: 0 0 0 5%;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.navi li {
+   font-size: 22px; 
+   font-family: 'Dela Gothic One', sans-serif;
+   float: right;
+   transform: translateY(20px);
+   margin: 0 2% 0 5%;
+}
+  
+.navi li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+.navi li a:hover {
+    background-color: #eebbc3;
+    color: #232946;
+}
+
+.learning-activities {
+    height: 180vh;
+    background-color: #eebbc3;
+}
+
+.task-content {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.grid-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 8%;
+  }
+
+  .box {
+    outline: #232946 3px double;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+.box h1 {
+    color: #232946;
+    margin-top: 2%;
+    font-family: 'Berkshire Swash', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.box  {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+  } 
+
+.grid-container .box a {    
+    color: white;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.grid-container .box a, a:link {
+    color: #232946;    
+}
+
+.grid-container a:hover, a:active {
+    background-color:  #232946;
+    color: #ffffff;
+}
+
+.title {
+    width: 40%;
+    background-color: aliceblue;
+    transform: translateY(80px);
+    margin: 0 0 5% 29%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+.title h1 {
+    font-family: 'Berkshire Swash', serif;
+    font-size: 80px;
+    text-align: center;
+    color: #232946;
+}
+
+.performance-tasks {
+    height: 160vh;
+    background-color: #232946;
+}
+
+.grid2-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 8%;
+  }
+
+.grid2-container .box {
+  outline:  black 3px double;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.grid2-container .box a {    
+    color: white;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.grid2-container .box h1 {
+    color: #eebbc3;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Berkshire Swash', serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.grid2-container .box a, a:link {
+    color: white;    
+}
+
+.grid2-container a:hover, a:active {
+    background-color: #eebbc3;
+    color: #232946;
+}

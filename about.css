@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Berkshire+Swash&family=Ultra&display=swap');   
+
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #232946;
+    display: flex;
+    position: sticky;
+}
+
+header {
+    color: white;
+    width: 40%;
+}
+
+header h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 35x black;
+    transform: translateY(25px);
+    margin-left: 5%;
+}
+
+ul {
+    height: 10vh;
+    width: 50%;
+    list-style-type: none;
+    margin: 0 0 0 5%;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+   font-size: 22px; 
+   font-family: 'Dela Gothic One', sans-serif;
+   float: right;
+   transform: translateY(20px);
+   margin: 0 2% 0 5%;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #eebbc3;
+    color: #232946;
+}
+
+.main-content {
+    height: 96vh;
+    background-color: #b8c1ec;
+}
+
+.about {
+    width: 40%;
+    margin: 0 0 8% 7%;
+}
+
+.about h1 {
+    font-family: 'Berkshire Swash', serif;
+    font-size: 80px;
+    transform: translateY(80px);
+    color: #232946;
+    border-left: #232946 solid 10px;
+    padding-left: 5%;
+}
+
+.content-container {
+    background-color: #232946;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    width: 80%;
+    height: 50vh;
+    margin: 0 0 5% 10%;
+}
+.title {
+    width: 58%; 
+    padding: 3% 0 0 0 ;
+} 
+
+.title h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: #232946 3px 3px 2px;
+    border-bottom: #b8c1ec double 5px;
+    margin: 0 0 5% 10%;
+}
+
+.description {
+    width: 76%;
+    margin: 0 0 5% 10%;
+    padding-top: 2%;
+}
+
+.description p {
+    color: #b8c1ec;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
